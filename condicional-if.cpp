@@ -14,9 +14,7 @@ int main(){
     cout << "Ingresa tu edad: ";
     cin >> age; //para pedir al usuario su edad
     //Validaciones 
-    if(age < 18){
-        cout <<"No puedes votar :C";
-    } else if(age > 40){
+    if(age < 18 || age > 40){
         cout <<"No puedes votar :C";
     } else {
         cout <<"Puedes votar C:";
