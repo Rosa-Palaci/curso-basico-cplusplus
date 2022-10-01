@@ -4,5 +4,5 @@ using namespace std;
 
 int main(){
     string texto = "Hola chicos";//esto funciona de escribir texto aunque poco eficiente
-    cout << texto;
+    cout << texto.size();
 }
