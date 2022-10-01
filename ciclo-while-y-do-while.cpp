@@ -2,7 +2,7 @@
 using namespace std;
 
 int main(){
-    while(true){
+    do{
         char respuesta;
         cout<<"Deseas terminar?"<<endl;
         cin >> respuesta;
@@ -10,5 +10,5 @@ int main(){
             cout <<"Bye bye"<<endl;
             break;
         }
-    }
+    } while(true);
 }
