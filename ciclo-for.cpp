@@ -7,8 +7,8 @@ int main (){
     // cout << "Limite: "<<endl;
     // cin >> limite;
     // cout<<"\n";
-    int limite = sizeof(list_num) / 4; //sizeof tamaño de la variable, 4 bits por entero
-    for (int i = 1; i < limite; i += 1){
-        cout<<list_num[i]*2<<endl;
+    int limite = sizeof(list_num) / sizeof(list_num[0]); //sizeof tamaño de la variable, 4 bits por entero
+    for (int i = 0; i < limite; i += 1){
+        cout<<list_num[i]*9<<endl;
     }
 }
