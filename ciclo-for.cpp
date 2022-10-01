@@ -2,7 +2,10 @@
 using namespace std;
 
 int main (){
-    for (int i = 0; i < 10; i += 1){
+    int limite = 7;
+    cout << "Limite: "<<endl;
+    cin >> limite;
+    for (int i = 0; i < limite; i += 1){
         cout<<i<<endl;
     }
 }
